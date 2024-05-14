@@ -1,0 +1,41 @@
+{
+  "name": "kneel-before-zod",
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build slides.md",
+    "dev": "slidev slides.md --open",
+    "export": "slidev export slides.md",
+    "screenshot": "slidev export slides.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.48.0-beta.20",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.0-beta.20"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Oswald",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "volta": {
+    "node": "20.13.1"
+  }
+}
